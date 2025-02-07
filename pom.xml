@@ -13,6 +13,10 @@
             <id>frameworkbrowser</id>
             <url>https://maven.pkg.github.com/EliassenInnovation/crucibleframeworkbrowser</url>
         </repository>
+        <repository>
+            <id>stepdefinitionlibrary</id>
+            <url>https://maven.pkg.github.com/EliassenInnovation/cruciblestepdefinitionlibrary</url>
+        </repository>
     </repositories>
 
     <distributionManagement>
