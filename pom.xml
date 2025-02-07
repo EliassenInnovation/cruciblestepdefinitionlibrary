@@ -4,26 +4,28 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <distributionManagement>
-        <repository>
-            <id>stepdefinitionlibrary</id>
-            <url>https://maven.pkg.github.com/EliassenInnovation/cruciblestepdefinitionlibrary</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>frameworkbrowser</id>
-            <url>https://maven.pkg.github.com/EliassenInnovation/crucibleframeworkbrowser</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
+        <repositories>
+            <repository>
+                <id>stepdefinitionlibrary</id>
+                <url>https://maven.pkg.github.com/EliassenInnovation/cruciblestepdefinitionlibrary</url>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+                <snapshots>
+                    <enabled>true</enabled>
+                </snapshots>
+            </repository>
+            <repository>
+                <id>frameworkbrowser</id>
+                <url>https://maven.pkg.github.com/EliassenInnovation/crucibleframeworkbrowser</url>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+                <snapshots>
+                    <enabled>true</enabled>
+                </snapshots>
+            </repository>
+        </repositories>
     </distributionManagement>
     <groupId>com.eliassen.crucible</groupId>
     <artifactId>stepdefinitionlibrary</artifactId>
