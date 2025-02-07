@@ -5,10 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <distributionManagement>
         <repository>
-            <uniqueVersion>false</uniqueVersion>
-            <id>Lightwell.MVN</id>
-            <url>https://pkgs.dev.azure.com/lightwellinc-clouddev/_packaging/Lightwell.MVN/maven/v1</url>
+            <id>stepdefinitionlibrary</id>
+            <url>https://maven.pkg.github.com/EliassenInnovation/cruciblestepdefinitionlibrary</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
         </repository>
+        <repository>
     </distributionManagement>
     <groupId>com.eliassen.crucible</groupId>
     <artifactId>stepdefinitionlibrary</artifactId>
@@ -18,8 +24,8 @@
             <groupId>com.eliassen.crucible</groupId>
             <artifactId>frameworkbrowser</artifactId>
             <version>0.0.5</version>
-        </dependency>
-    </dependencies>
+            </dependency>
+        </dependencies>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
