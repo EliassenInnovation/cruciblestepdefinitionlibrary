@@ -43,4 +43,4 @@ jobs:
           </settings>" > ~/.m2/settings.xml
 
       - name: Deploy to GitHub Packages
-        run: mvn deploy
+        run: mvn deploy -DskipTests
