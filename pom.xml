@@ -14,6 +14,16 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>crucibleframeworkbrowser</id>
+            <url>https://maven.pkg.github.com/EliassenInnovation/crucibleframeworkbrowser</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
     </distributionManagement>
     <groupId>com.eliassen.crucible</groupId>
     <artifactId>stepdefinitionlibrary</artifactId>
